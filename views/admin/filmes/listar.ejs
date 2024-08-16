@@ -1,6 +1,13 @@
 <%- include('../../header.ejs') %>
+<%- include('../../nav.ejs') %>
 <body class="container">
-    <%- include('../../nav.ejs') %>
-    <h1>Teste</h1>
+    <h1 class="title is-3 mt-5">Cadastrar novo filme</h1>
+    <form action="#" >
+        <input type="text" class="input mt-4" placeholder="titulo do filme" name="titulo"></br>
+        <input type="text" class="input mt-4" placeholder="Genero do filme" name="genero"></br>
+        <input type="text" class="input mt-4" placeholder="Estudio criador" name="estudio"></br>
+        <input type="text" class="input mt-4" placeholder="Diretor" name="diretor"></br>
+        <button class="button is-primary mt-4">Enviar</button>
+    </form>
 </body>
 <%- include('../../footer.ejs') %>
