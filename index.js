@@ -30,6 +30,7 @@ Connection.authenticate()
 app.use("/", filmesController);
 
 
+
 app.listen(8081, (error) => {
     if(error == undefined){
         console.log("Servidor rodando! URL: http://localhost:8081");

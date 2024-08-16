@@ -20,4 +20,6 @@ const Filme = Connection.define("filmes", {
     },
 });
 
+//Filme.sync({force: true});
+
 module.exports = Filme;
